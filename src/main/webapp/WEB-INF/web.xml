@@ -3,6 +3,7 @@
          xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
+<!--
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -10,7 +11,7 @@
     </context-param>
 
 
-    <!-- 编码过滤器 -->
+    &lt;!&ndash; 编码过滤器 &ndash;&gt;
     <filter>
         <filter-name>characterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -46,5 +47,6 @@
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+-->
 
 </web-app>

@@ -6,7 +6,7 @@ import org.springframework.context.annotation.FilterType;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
- * 指定除了
+ * 配置非web的组件，通常是后端的中间层和数据层组件
  *
  * @author xym
  */
